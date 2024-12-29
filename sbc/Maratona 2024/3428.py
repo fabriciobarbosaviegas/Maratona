@@ -1,5 +1,5 @@
 n = int(input())
-b = list(map(int, input().split()))
+b = [int(i) for i in input().split()]
 
 flechas = {}
 c = 0

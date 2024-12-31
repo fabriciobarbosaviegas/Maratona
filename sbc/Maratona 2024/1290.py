@@ -1,21 +1,26 @@
 res = []
+
 while True:
     N, M = [int(i) for i in input().split()]
 
-    if(N == 0 and M == 0):
+    if N + M == 0:
         break
-    
-    cliente = []
+
+    pedido = []
+    estoque = []
 
     for i in range(N):
-        caixa = [int(i) for i in input().split()]
-        cliente.append(caixa[0]*caixa[1]*caixa[2])
+        pedido.append([int(i) for i in input().split()])
+        pedido[i] = pedido[i][0]*pedido[i][1]*pedido[i][2]
     
     for i in range(M):
-        caixa = [int(i) for i in input().split()]
-        if caixa in cliente:
-            res.append(0)
-        else:
-            res.append("impossible")
+        estoque.append([int(i) for i in input().split()])
+        estoque[i] = estoque[i][0]*estoque[i][1]*estoque[i][2]
+    
+    for i in pedido:
+        sobra = 0
+        if i in estoque:
+            sobra += 0
 
-[print(i) for i in res]
+for i in res:
+    print(i)

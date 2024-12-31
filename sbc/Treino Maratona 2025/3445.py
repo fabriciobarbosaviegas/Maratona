@@ -1,0 +1,7 @@
+res = []
+N, H, W = [int(i) for i in input().split()]
+
+for _ in range(N):
+    dia = input().split()
+
+    

@@ -1,4 +1,4 @@
-Tenho me dedicado a competições de programação desde 2022, como uma forma de melhorar minhas habilidades e conseguir melhores oportunidades. Aqui encontram-se minhas todas as resoluções de problemas que tenho guardadas desde o começo, de uma forma um tanto quanto bagunçada.
+Tenho me dedicado a competições de programação desde 2022, como uma forma de melhorar minhas habilidades e conseguir melhores oportunidades. Aqui encontram-se todas as minhas resoluções de problemas que tenho guardadas desde o começo, de uma forma um tanto quanto bagunçada.
 
 # Organização das pastas
 ## OBI Prática

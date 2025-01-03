@@ -1,9 +1,11 @@
 n, k = [int(i) for i in input().split()]
+limite = 2 * n
+mod = limite + 1
 
-n *= 2
+x = limite**2
 
-for i in range(n, 0, -1):
-    temp = i**2
-    if((temp - k)%2 != 0 and i != n):
-        print(temp)
-        break
+while abs(x - k) % mod != 0:
+    limite -= 1  
+    x = limite**2  
+
+print(x)

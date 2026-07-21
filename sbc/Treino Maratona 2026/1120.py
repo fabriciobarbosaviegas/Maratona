@@ -11,6 +11,7 @@ while True:
         n = r.split('0')
         if n[0] == '':
             print('0')
+        print(int(r))
     else:
         print(r)
 
